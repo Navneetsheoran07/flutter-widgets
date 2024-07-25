@@ -6,7 +6,7 @@ class WebViewScreen extends StatelessWidget {
 
   final controller = WebViewController()
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
-    ..loadRequest(Uri.parse('https://github.com/bhautik23'));
+    ..loadRequest(Uri.parse('https://github.com/navneetsheoran07'));
 
   @override
   Widget build(BuildContext context) {
