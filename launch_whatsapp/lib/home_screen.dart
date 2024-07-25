@@ -48,9 +48,9 @@ class HomeScreen extends StatelessWidget {
             ),
             InkWell(
               onTap: () async {
-                var whatsAppNumber = "+918299580719";
+                var whatsAppNumber = "Enter Your Number";
                 var whatsAppUrl =
-                    "whatsapp://send?phone=$whatsAppNumber&text=Hello Aman";
+                    "whatsapp://send?phone=$whatsAppNumber&text=Hello ";
                 await launchUrl(
                   Uri.parse(whatsAppUrl),
                 );
